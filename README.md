@@ -1,10 +1,12 @@
+Note: This is forked from here: https://github.com/mbinot/sails-leveldb for some minor changes and fixes and publishing to npm
+
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# waterline-leveldb
+# sails-leveldb
 
 Provides easy access to `leveldb` from Sails.js & Waterline.
 
-This `sail-leveldb` stores indexes of unique attributes for *relatively* fast lookups. Collections with multiple
+This `sails-leveldb` stores indexes of unique attributes for *relatively* fast lookups. Collections with multiple
 unique constraints are supported as well.
 
 Warning! This adapter will probably slow down on a high number of records.
